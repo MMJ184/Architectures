@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{A6AFF3E8-1178-48FB-B581-EF1351D7A01D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Core", "2. Core", "{F22987F8-77DD-4F1B-AC0D-436FC3DF40E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Tests", "3. Tests", "{47B35852-4236-41E4-93F5-786549FB7D95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.Api", "InfinityDepper.Api\InfinityDapper.Api.csproj", "{50C4D1D5-0EA1-442C-BCD0-A8673DC7DC0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.Database", "InfinityDepper.Database\InfinityDapper.Database.csproj", "{46119590-2CCB-42FD-987A-D509CDF7D9E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.Repository", "InfinityDepper.Repository\InfinityDapper.Repository.csproj", "{7307E3BB-3D70-410B-AA9F-A888F09F5A87}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.Services", "InfinityDepper.Services\InfinityDapper.Services.csproj", "{0356E1D5-A6D0-4534-9B9B-7E704E3DEC12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.Dapper", "InfinityDepper.Depper\InfinityDapper.Dapper.csproj", "{CF4D6665-1886-4E9B-9317-1EC2331B64F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.DTO", "InfinityDepper.DTO\InfinityDapper.DTO.csproj", "{A1E70527-A565-4C02-97BC-41C804312E28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.ServicesTest", "InfinityDepper.ServicesTest\InfinityDapper.ServicesTest.csproj", "{53DD021F-AE43-4A8E-98F8-ABC0A2354D39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.RepositoryTest", "InfinityDepper.RepositoryTest\InfinityDapper.RepositoryTest.csproj", "{C9F7B4A7-D0EB-43B4-8212-D1A1B7B5B342}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfinityDapper.ApiTest", "InfinityDepper.ApiTest\InfinityDapper.ApiTest.csproj", "{F5D0FDAB-9E8C-4E18-B56F-D0B8264F39DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50C4D1D5-0EA1-442C-BCD0-A8673DC7DC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C4D1D5-0EA1-442C-BCD0-A8673DC7DC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C4D1D5-0EA1-442C-BCD0-A8673DC7DC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C4D1D5-0EA1-442C-BCD0-A8673DC7DC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46119590-2CCB-42FD-987A-D509CDF7D9E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46119590-2CCB-42FD-987A-D509CDF7D9E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46119590-2CCB-42FD-987A-D509CDF7D9E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46119590-2CCB-42FD-987A-D509CDF7D9E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7307E3BB-3D70-410B-AA9F-A888F09F5A87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7307E3BB-3D70-410B-AA9F-A888F09F5A87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7307E3BB-3D70-410B-AA9F-A888F09F5A87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7307E3BB-3D70-410B-AA9F-A888F09F5A87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0356E1D5-A6D0-4534-9B9B-7E704E3DEC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0356E1D5-A6D0-4534-9B9B-7E704E3DEC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0356E1D5-A6D0-4534-9B9B-7E704E3DEC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0356E1D5-A6D0-4534-9B9B-7E704E3DEC12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4D6665-1886-4E9B-9317-1EC2331B64F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4D6665-1886-4E9B-9317-1EC2331B64F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4D6665-1886-4E9B-9317-1EC2331B64F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4D6665-1886-4E9B-9317-1EC2331B64F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E70527-A565-4C02-97BC-41C804312E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E70527-A565-4C02-97BC-41C804312E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E70527-A565-4C02-97BC-41C804312E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E70527-A565-4C02-97BC-41C804312E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53DD021F-AE43-4A8E-98F8-ABC0A2354D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DD021F-AE43-4A8E-98F8-ABC0A2354D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DD021F-AE43-4A8E-98F8-ABC0A2354D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DD021F-AE43-4A8E-98F8-ABC0A2354D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F7B4A7-D0EB-43B4-8212-D1A1B7B5B342}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F7B4A7-D0EB-43B4-8212-D1A1B7B5B342}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F7B4A7-D0EB-43B4-8212-D1A1B7B5B342}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F7B4A7-D0EB-43B4-8212-D1A1B7B5B342}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5D0FDAB-9E8C-4E18-B56F-D0B8264F39DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5D0FDAB-9E8C-4E18-B56F-D0B8264F39DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5D0FDAB-9E8C-4E18-B56F-D0B8264F39DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5D0FDAB-9E8C-4E18-B56F-D0B8264F39DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50C4D1D5-0EA1-442C-BCD0-A8673DC7DC0D} = {A6AFF3E8-1178-48FB-B581-EF1351D7A01D}
+		{46119590-2CCB-42FD-987A-D509CDF7D9E4} = {F22987F8-77DD-4F1B-AC0D-436FC3DF40E3}
+		{7307E3BB-3D70-410B-AA9F-A888F09F5A87} = {F22987F8-77DD-4F1B-AC0D-436FC3DF40E3}
+		{0356E1D5-A6D0-4534-9B9B-7E704E3DEC12} = {F22987F8-77DD-4F1B-AC0D-436FC3DF40E3}
+		{CF4D6665-1886-4E9B-9317-1EC2331B64F9} = {F22987F8-77DD-4F1B-AC0D-436FC3DF40E3}
+		{A1E70527-A565-4C02-97BC-41C804312E28} = {F22987F8-77DD-4F1B-AC0D-436FC3DF40E3}
+		{53DD021F-AE43-4A8E-98F8-ABC0A2354D39} = {47B35852-4236-41E4-93F5-786549FB7D95}
+		{C9F7B4A7-D0EB-43B4-8212-D1A1B7B5B342} = {47B35852-4236-41E4-93F5-786549FB7D95}
+		{F5D0FDAB-9E8C-4E18-B56F-D0B8264F39DD} = {47B35852-4236-41E4-93F5-786549FB7D95}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB69C9E5-2C2C-4DF5-A1E4-B60477137319}
+	EndGlobalSection
+EndGlobal
